@@ -39,9 +39,9 @@ public class BoxPlot{
         renderer.setSeriesOutlinePaint(0, Color.red);
         renderer.setLegendTextFont(0, new Font("SansSerif", Font.PLAIN, 15));
         renderer.setFillBox(true);
-        renderer.setBaseOutlinePaint(Color.orange);
+        //renderer.setBaseOutlinePaint(Color.orange);
         renderer.setUseOutlinePaintForWhiskers(true);
-        renderer.setBaseFillPaint(Color.yellow);
+        //renderer.setBaseFillPaint(Color.yellow);
         renderer.setMeanVisible(false);
 
         JFreeChart chart = new JFreeChart("Boxplots", new Font("SansSerif", Font.PLAIN, 14), plot, true);
